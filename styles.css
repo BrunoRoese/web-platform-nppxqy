@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+figure {
+  cursor: pointer;
+}
+
+figure > figcaption {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+
+  margin-top: 16px;
+}
+
+body > button {
+  height: 30px;
+  width: 80px;
+  background-color: beige;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
